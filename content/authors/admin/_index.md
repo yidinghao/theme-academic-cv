@@ -30,27 +30,26 @@ profiles:
   - icon: at-symbol
     url: 'mailto:sophie.hao@nyu.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/yidinghao
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/yidinghao/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=fl7rVEYAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0001-8033-0242
+  - icon: academicons/semantic-scholar
+    url: https://www.semanticscholar.org/author/Sophie-Hao/24849771
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computational Linguistics and NLP
+  - Interpretability and Model Analysis
+  - Gender and Bias
+  - Applications to Humanities and Social Science
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
+  - area: PhD in Linguistics and Computer Science
+    institution: Yale University
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -58,24 +57,13 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: BA in Mathematics and Linguistics
+    institution: University of Chicago
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
       GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -180,4 +168,11 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a [postdoc without a supervisor](https://apply.interfolio.com/80664) at New York University (NYU). My research is on interpretability and explainability for natural language processing, with the aim of understanding what it means for a deep neural network to be “interpreted by” or “explained to” a human audience. Interests include but are not limited to:
+- BERTology and analysis of neural representations
+- feature attribution, causality, and bias
+- generative linguistics, syntax, and psycholinguistics
+- theory of computation and formal languages
+- theoretical foundations, rigor, and reproducibility
+  
+My collaborators at NYU include [Tal Linzen](https://tallinzen.net/), [João Sedoc](https://www.stern.nyu.edu/faculty/bio/joao-sedoc), and [Sunoo Park](https://sunoopark.com/). I recently completed my PhD in Linguistics and Computer Science with [Bob Frank](https://bobfrank1.github.io/) and [Dana Angluin](https://fas.yale.edu/book/faculty-retirement-tributes-2021/dana-angluin) at Yale University.
