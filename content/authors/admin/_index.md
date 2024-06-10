@@ -50,17 +50,17 @@ interests:
 education:
   - area: PhD in Linguistics and Computer Science
     institution: Yale University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2016
+    date_end: 2022
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      text: 'Dissertation'
+      url: 'https://drive.google.com/file/d/1tzGWmY0ee6w0JpaMCsQevGZJUx0WFbHc/view'
   - area: BA in Mathematics and Linguistics
     institution: University of Chicago
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2011
+    date_end: 2015
     summary: |
       GPA: 3.8/4.0
 
@@ -68,29 +68,25 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: AI/ML Intern
+    company_name: Apple
+    company_url: https://www.apple.com/
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2021-05-01
+    date_end: 2021-08-01
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      Intern on the Siri team
+  - position: Software Developer
+    company_name: Epic
+    company_url: https://www.epic.com/
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: 2015-08-01
+    date_end: 2016-08-01
+    summary: |2-
+      Worked on EpicCare Ambulatory, EpicCare Geriatrics, and MyChart
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -129,9 +125,13 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: Mandarin Chinese
+    percent: 50
+  - name: French
+    percent: 25
+  - name: Spanish
+    percent: 25
+  - name: Japanese
     percent: 25
 
 # Awards.
