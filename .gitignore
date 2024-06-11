@@ -7,3 +7,6 @@ content/.DS_Store
 content/.DS_Store
 content/authors/.DS_Store
 content/authors/admin/.DS_Store
+.DS_Store
+go.mod
+go.mod
