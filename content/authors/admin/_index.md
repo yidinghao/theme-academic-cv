@@ -42,10 +42,11 @@ profiles:
     url: https://www.semanticscholar.org/author/Sophie-Hao/24849771
 
 interests:
-  - Computational Linguistics and NLP
-  - Interpretability and Model Analysis
-  - Gender and Bias
-  - Applications to Humanities and Social Science
+  - Interpretability and Explainability
+  - Linguistics and Cognitive Science
+  - Gender, Bias, and Fairness
+  - Theory of Neural Architectures
+  - Applications to Social Science
 
 education:
   - area: PhD in Linguistics and Computer Science
