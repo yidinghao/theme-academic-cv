@@ -181,11 +181,13 @@ languages:
 
 ## About Me
 
-I am a [postdoc without a supervisor](https://apply.interfolio.com/80664) at New York University (NYU). My research is on interpretability and explainability for natural language processing, with the aim of understanding what it means for a deep neural network to be “interpreted by” or “explained to” a human audience. Interests include but are not limited to:
-- BERTology and analysis of neural representations
+I am a computational linguist specializing in interpretability and analysis of neural language models. I aim to understand the capabilities and limitations of language models from a rigorous, interdisciplinary, and scientific perspective. I use theoretical and empirical methods from computer science, linguistics, cognitive science, and philosophy to describe, evaluate, and explain language model abilities. Interests include but are not limited to:
+- probing and analysis of neural representations
 - feature attribution, causality, and bias
 - generative linguistics, syntax, and psycholinguistics
 - theory of computation and formal languages
 - theoretical foundations, rigor, and reproducibility
-  
-My collaborators at NYU include [Tal Linzen](https://tallinzen.net/), [João Sedoc](https://www.stern.nyu.edu/faculty/bio/joao-sedoc), and [Sunoo Park](https://sunoopark.com/). I recently completed my PhD in Linguistics and Computer Science with [Bob Frank](https://bobfrank1.github.io/) and [Dana Angluin](https://fas.yale.edu/book/faculty-retirement-tributes-2021/dana-angluin) at Yale University.
+
+
+I am currently a [postdoc without a supervisor](https://apply.interfolio.com/80664) at New York University (NYU), where I collaborate with [Tal Linzen](https://tallinzen.net/), [João Sedoc](https://www.stern.nyu.edu/faculty/bio/joao-sedoc), [Sunoo Park](https://sunoopark.com/), and members of their research groups.
+
