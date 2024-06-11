@@ -1,0 +1,9 @@
+public
+resources
+.hugo_build.lock
+go.sum
+hugo_stats.json
+content/.DS_Store
+content/.DS_Store
+content/authors/.DS_Store
+content/authors/admin/.DS_Store

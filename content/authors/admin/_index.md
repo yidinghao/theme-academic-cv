@@ -7,8 +7,8 @@ first_name: Sophie
 last_name: Hao
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -50,26 +50,29 @@ interests:
 education:
   - area: PhD in Linguistics and Computer Science
     institution: Yale University
-    date_start: 2016
-    date_end: 2022
+    date_start: 2016-08-01
+    date_end: 2022-12-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Advised by Robert Frank and Dana Angluin. 
     button:
       text: 'Dissertation'
       url: 'https://drive.google.com/file/d/1tzGWmY0ee6w0JpaMCsQevGZJUx0WFbHc/view'
   - area: BA in Mathematics and Linguistics
     institution: University of Chicago
-    date_start: 2011
-    date_end: 2015
+    date_start: 2011-09-01
+    date_end: 2015-06-01
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Thesis advised by Gregory Kobele. Focus on generative linguistics, theory of computation, and mathematical logic, with additional coursework in economics.
 
 work:
+  - position: Assistant Professor/Faculty Fellow
+    company_name: New York University
+    company_url: https://cds.nyu.edu/
+    company_logo: ''
+    date_start: 2022-09-01
+    date_end: ''
+    summary: |
+      Independent postdoctoral fellow at the Center for Data Science
   - position: AI/ML Intern
     company_name: Apple
     company_url: https://www.apple.com/
@@ -77,7 +80,15 @@ work:
     date_start: 2021-05-01
     date_end: 2021-08-01
     summary: |2-
-      Intern on the Siri team
+      PhD intern with the Siri Natural Language Team 
+  - position: Visiting Researcher
+    company_name: National Institute of Informatics
+    company_url: https://www.nii.ac.jp/
+    company_logo: ''
+    date_start: 2017-05-01
+    date_end: 2017-08-01
+    summary: |2-
+      Working on Gold-learnable classes of context-free languages with Makoto Kanazawa
   - position: Software Developer
     company_name: Epic
     company_url: https://www.epic.com/
@@ -85,7 +96,7 @@ work:
     date_start: 2015-08-01
     date_end: 2016-08-01
     summary: |2-
-      Worked on EpicCare Ambulatory, EpicCare Geriatrics, and MyChart
+      Front-end and back-end web development for EpicCare Ambulatory, EpicCare Geriatrics, and MyChart
 
 
 # Skills
@@ -93,27 +104,28 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: PyTorch
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: devicon/pytorch
+      - name: Hugging Face
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: SQL
+        icon: "🤗"
+        icon_pack: emoji
+      - name: LaTeX
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: devicon/latex
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Violin
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        icon: musical-note
+      - name: Ballet
         description: ''
         percent: 100
         icon: cat
@@ -138,32 +150,32 @@ languages:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+# awards:
+#   - title: Neural Networks and Deep Learning
+#     url: https://www.coursera.org/learn/neural-networks-deep-learning
+#     date: '2023-11-25'
+#     awarder: Coursera
+#     icon: coursera
+#     summary: |
+#       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+#   - title: Blockchain Fundamentals
+#     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+#     date: '2023-07-01'
+#     awarder: edX
+#     icon: edx
+#     summary: |
+#       Learned:
+#       - Synthesize your own blockchain solutions
+#       - Gain an in-depth understanding of the specific mechanics of Bitcoin
+#       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+#   - title: 'Object-Oriented Programming in R'
+#     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+#     certificate_url: https://www.datacamp.com
+#     date: '2023-01-21'
+#     awarder: datacamp
+#     icon: datacamp
+#     summary: |
+#       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## About Me
